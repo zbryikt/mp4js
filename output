@@ -1,0 +1,294 @@
+ftyp
+moov
+mvhd
+trak
+tkhd
+edts
+mdia
+mdhd
+hdlr
+minf
+vmhd
+dinf
+dref
+url 
+stbl
+stsd
+stts
+stss
+ctts
+stsc
+stsz
+stco
+udta
+free
+mdat
+[
+  {
+    "length": 32,
+    "majorBrand": "isom",
+    "minorVersion": 512,
+    "compatibleBrands": [
+      "isom",
+      "iso2"
+    ],
+    "type": "ftyp"
+  },
+  {
+    "box": [
+      {
+        "version": 0,
+        "flags": 0,
+        "creationTime": 0,
+        "modificationTime": 0,
+        "timeScale": 1000,
+        "duration": 900,
+        "rate": 1,
+        "volume": 1,
+        "reserved": {
+          "type": "Buffer",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "matrix": {
+          "type": "Buffer",
+          "data": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            64,
+            0,
+            0,
+            0
+          ]
+        },
+        "preDefined": {
+          "type": "Buffer",
+          "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "nextTrackId": 2,
+        "type": "mvhd"
+      },
+      {
+        "box": [
+          {
+            "version": 0,
+            "flags": 3,
+            "creationTime": 0,
+            "modificationTime": 0,
+            "trackId": 1,
+            "duration": 900,
+            "layer": 0,
+            "alternateGroup": 0,
+            "volume": 0,
+            "matrix": {
+              "type": "Buffer",
+              "data": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                64,
+                0,
+                0,
+                0
+              ]
+            },
+            "width": 200,
+            "height": 200,
+            "type": "tkhd"
+          },
+          {
+            "type": "edts"
+          },
+          {
+            "box": [
+              {
+                "version": 0,
+                "flags": 0,
+                "creationTime": 0,
+                "modificationTime": 0,
+                "timeScale": 12800,
+                "duration": 11520,
+                "language": 21956,
+                "preDefined": 0,
+                "type": "mdhd"
+              },
+              {
+                "version": 0,
+                "flags": 0,
+                "preDefined": 0,
+                "handlerType": "vide",
+                "type": "hdlr"
+              },
+              {
+                "box": [
+                  {
+                    "version": 0,
+                    "flags": 1,
+                    "graphicsMode": 0,
+                    "opcolor": [
+                      0,
+                      0,
+                      null
+                    ],
+                    "type": "vmhd"
+                  },
+                  {
+                    "box": [
+                      {
+                        "version": 0,
+                        "flags": 0,
+                        "entryCount": 1,
+                        "url": [
+                          {
+                            "version": 0,
+                            "flags": 1,
+                            "type": "url "
+                          }
+                        ],
+                        "type": "dref"
+                      }
+                    ],
+                    "type": "dinf"
+                  },
+                  {
+                    "box": [
+                      {
+                        "type": "stsd"
+                      },
+                      {
+                        "type": "stts"
+                      },
+                      {
+                        "type": "stss"
+                      },
+                      {
+                        "type": "ctts"
+                      },
+                      {
+                        "type": "stsc"
+                      },
+                      {
+                        "type": "stsz"
+                      },
+                      {
+                        "type": "stco"
+                      }
+                    ],
+                    "type": "stbl"
+                  }
+                ],
+                "type": "minf"
+              }
+            ],
+            "type": "mdia"
+          }
+        ],
+        "type": "trak"
+      },
+      {
+        "type": "udta"
+      }
+    ],
+    "type": "moov"
+  },
+  {
+    "type": "free"
+  },
+  {
+    "type": "mdat"
+  }
+]
